@@ -6,7 +6,7 @@ nessus 扫描c段，然后通过fofa来拿到ip到title，从而判断ip属于�
 
 但是目前fofa api调用太多会被ban。
 
-待实现的功能：调用nessus api 扫描ip/c段，然后输出ip的资产和存在的高危中危存在的漏洞。
+待实现的功能：调用nessus api 扫描ip/c段，然后输出ip属于的资产和存在的高危中危存在的漏洞。
 
 1. 从nessus api获取到host
    1. 返回scans
